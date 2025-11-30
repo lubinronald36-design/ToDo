@@ -1,0 +1,21 @@
+
+CSS (in style.css file):
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+#tasks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#tasks li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#tasks li:last-child {
+  border-bottom: none;
+}
